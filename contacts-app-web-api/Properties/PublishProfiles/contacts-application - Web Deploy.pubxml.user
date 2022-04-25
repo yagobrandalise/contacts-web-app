@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPOFk2u0NEESg/f+8NanhSAAAAAACAAAAAAAQZgAAAAEAACAAAAD2P2Qrml6ijrwVTvxxAOfxsmWd/KVt0xCGWCf1gDm6uAAAAAAOgAAAAAIAACAAAACjy7NweW8MdUHTTfRZY3pmSJOBT/H8z5ImXTRQ21ucSoAAAAAM4m2dYpYsXgKb2wHS7LmImdjthhqAcQcf+f3cudNKXOC0tVpkhA30Cw+AkqeyWJR4qBQPgaZuFW9B2pjjvOFKoeNMAiQmUo+loeIMkcHaqkzyMDoppmljyvsc81155rKu2WS4aKOH48MyumyzywSNcmiN8DqLxcry2bXael1I+0AAAADXQ57gP2UJWT6LNPB9Foeuhd/8I8RrtFl7z2kq5fbJL4rKo0EbTjX04EE3915feEd8/RlSsc5V3BaJ8YpEqyRl</EncryptedPassword>
+    <History>False|2022-04-25T14:11:12.4217469Z;False|2022-04-25T11:09:23.6494088-03:00;True|2022-04-25T11:06:17.7415490-03:00;True|2022-04-25T10:57:16.7578193-03:00;True|2022-04-25T10:55:11.9157704-03:00;True|2022-04-25T10:45:26.2973843-03:00;True|2022-04-25T09:34:08.4032827-03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Default">
+      <Value>Server=contacts-app-db-server.database.windows.net%3bDatabase=ContactsApplicationDb%3bUser Id=yago%3bPassword=01Contacts%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ContactsApplication.Context.ContactsDbContext">
+      <Value>Server=contacts-app-db-server.database.windows.net%3bDatabase=ContactsApplicationDb%3bUser Id=yago%3bPassword=01Contacts%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
